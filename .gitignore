@@ -1,0 +1,10 @@
+/node_modules/
+/pkg/
+
+/dist/
+/build/
+
+/.idea/workspace.xml
+/junit.xml
+/coverage/cobertura-coverage.xml
+

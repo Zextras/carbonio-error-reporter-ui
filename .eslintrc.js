@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-	extends: ['./node_modules/@zextras/zapp-configs/rules/eslint.js']
+	extends: ['./node_modules/@zextras/carbonio-ui-configs/rules/eslint.js']
 };

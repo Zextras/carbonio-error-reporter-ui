@@ -6,7 +6,7 @@
 
 import React, { useEffect, useMemo, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { Button, useScreenMode } from '@zextras/zapp-ui';
+import { Button, useScreenMode } from '@zextras/carbonio-design-system';
 import { useAddBoardCallback, useAppContext } from '@zextras/zapp-shell';
 
 const Portal = ({ children }) => {

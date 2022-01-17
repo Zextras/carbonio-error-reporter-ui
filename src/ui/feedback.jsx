@@ -5,7 +5,7 @@
  */
 
 import React, { useEffect, useState, useCallback, useReducer, useMemo } from 'react';
-import { Text, Button, Select, Container, Row, Icon } from '@zextras/zapp-ui';
+import { Text, Button, Select, Container, Row, Icon } from '@zextras/carbonio-design-system';
 import {
 	useUserAccount,
 	useRemoveCurrentBoard,

@@ -12,7 +12,7 @@ import {
 	useUpdateCurrentBoard,
 	setAppContext,
 	getBridgedFunctions
-} from '@zextras/zapp-shell';
+} from '@zextras/carbonio-shell-ui';
 import { Severity } from '@sentry/browser';
 import { find } from 'lodash';
 import styled from 'styled-components';

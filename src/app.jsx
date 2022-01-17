@@ -11,7 +11,7 @@ import {
 	Spinner,
 	getBridgedFunctions,
 	registerFunctions
-} from '@zextras/zapp-shell';
+} from '@zextras/carbonio-shell-ui';
 import { ErrorReporter } from './error-reporter';
 import FeedbackButton from './ui/feedback-button';
 

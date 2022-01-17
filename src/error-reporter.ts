@@ -27,17 +27,17 @@ export class ErrorReporter {
 		return this._clientCache[pkgName];
 	}
 
-	public reportException(
+	public reportException = (
 		error: Error,
 		app: { name: string; version: string },
 		hint?: EventHint
-	): string | null {
+	): string | null => {
 		const client = this._getClientForApp(app.name, app.version);
 		if (client) {
 			return client.captureException(error, { ...hint });
 		}
 		return null;
-	}
+	};
 
 	public reportFeedback(event: Event): string | null {
 		const client = this._getClientForApp('feedbacks', '');

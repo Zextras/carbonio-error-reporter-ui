@@ -5,14 +5,14 @@
  */
 
 import React, { useEffect, useState, useCallback, useReducer, useMemo } from 'react';
-import { Text, Button, Select, Container, Row, Icon } from '@zextras/zapp-ui';
+import { Text, Button, Select, Container, Row, Icon } from '@zextras/carbonio-design-system';
 import {
 	useUserAccount,
 	useRemoveCurrentBoard,
 	useUpdateCurrentBoard,
 	setAppContext,
 	getBridgedFunctions
-} from '@zextras/zapp-shell';
+} from '@zextras/carbonio-shell-ui';
 import { Severity } from '@sentry/browser';
 import { find } from 'lodash';
 import styled from 'styled-components';

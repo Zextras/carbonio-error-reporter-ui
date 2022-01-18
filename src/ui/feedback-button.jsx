@@ -6,8 +6,8 @@
 
 import React, { useEffect, useMemo, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { Button, useScreenMode } from '@zextras/zapp-ui';
-import { useAddBoardCallback, useAppContext } from '@zextras/zapp-shell';
+import { Button, useScreenMode } from '@zextras/carbonio-design-system';
+import { useAddBoardCallback, useAppContext } from '@zextras/carbonio-shell-ui';
 
 const Portal = ({ children }) => {
 	const el = useMemo(() => window.top.document.createElement('div'), []);

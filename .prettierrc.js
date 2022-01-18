@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-	...require('@zextras/zapp-configs/rules/prettier')
+	...require('@zextras/carbonio-ui-configs/rules/prettier')
 }
